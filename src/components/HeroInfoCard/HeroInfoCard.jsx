@@ -30,7 +30,7 @@ const HeroInfoCard = ({ title, population, area, price }) => {
                 </div>
             </div>
 
-            <button className="btn-default">Explore More</button>
+            <a href="#contact" className="btn-default">Explore More</a>
         </div>
     )
 }

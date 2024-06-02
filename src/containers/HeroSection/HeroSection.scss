@@ -43,6 +43,10 @@
 
         $carousel-transition-duration: 2s !default;
         
+            .carousel-control-prev, .carousel-control-next {
+                display: none;
+            }
+        
         
         &-item {
             // margin: auto;
