@@ -1,14 +1,6 @@
-.Prices {
-    margin-bottom: 100px !important;
+.VisaSupport {
     border-bottom: 1px solid #eee;
-
-    &-cards {
-        display: flex;
-        align-items: center;
-        justify-content: space-between;
-        width: 100%;
-    }
-
+    
     .swiper {
         width: 100%;
         height: 100%;
@@ -29,7 +21,21 @@
     }
     
     .swiper-slide img {
-        // display: block;
-        // width: 100%;
+        display: block;
+        width: 100%;
+    }
+
+    .Card {
+
+        img {
+            width: 90%;
+            height: 100%;
+        }
+
+        &-body {
+            // width: 60%;
+            top: -180px;
+            right: -180px;
+        }
     }
 }
