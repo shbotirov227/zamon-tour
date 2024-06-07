@@ -7,8 +7,12 @@ import VisaSupport from "./containers/VisaSupport/VisaSupport";
 import Explore from "./containers/Explore/Explore";
 import Visit from "./containers/Visit/Visit";
 import Locations from "./containers/Locations/Locations";
+import FormSection from "./containers/FormSection/FormSection.jsx";
+
+import "./i18n.js";
 
 import "./assets/index.scss";
+
 
 function App() {
 	return (
@@ -21,6 +25,7 @@ function App() {
 			<Visit />
 			<Locations />
 			<Reservation />
+			<FormSection />
 			<Footer />
 		</div>
 	);

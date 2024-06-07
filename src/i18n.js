@@ -25,6 +25,16 @@ i18n
 
     interpolation: {
       escapeValue: false, // not needed for react as it escapes by default
+    },
+
+    resources: {
+      en: {
+        translation: {
+          home: {
+            title: "Home",
+          }
+        }
+      }
     }
   });
 
