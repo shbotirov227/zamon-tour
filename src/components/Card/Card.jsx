@@ -33,8 +33,8 @@ const Card = ({ image, cityName, users, price, items, bottomTitle }) => {
                     <h4 className="Card-bottom-title">{bottomTitle ? bottomTitle : "Deal Includes:"}</h4>
                     <ul className="Card-bottom-items">
                         {
-                            items.map(el => (
-                                <li className="Card-bottom-item">
+                            items.map((el, id) => (
+                                <li className="Card-bottom-item" key={id}>
                                     {el.icon}
                                     <span>{el.text}</span>
                                 </li>

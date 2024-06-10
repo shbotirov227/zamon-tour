@@ -2,6 +2,7 @@ import React from 'react';
 import { ArrowIcon, ExploreCardIcon1, ExploreCardIcon2, ExploreCardIcon3 } from "../../assets/icons";
 
 import "./ExploreCard.scss";
+import { Link, NavLink } from "react-router-dom";
 
 const ExploreCard = ({ image, title, author, text, peoples, area, price }) => {
     return (

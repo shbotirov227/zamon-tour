@@ -199,9 +199,8 @@ const VisaSupport = () => {
             >
                 {
                     data.map(el => (
-                        <SwiperSlide>
+                        <SwiperSlide key={el.id}>
                             <Card
-                                key={el.id}
                                 image={el.image}
                                 bottomTitle={el.bottomTitle}
                                 icon={el.icon}

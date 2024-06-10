@@ -28,6 +28,14 @@ body {
     box-sizing: border-box;
 }
 
+.mini-container {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: border-box;
+}
+
 .btn-default {
     font-size: 14px;
     font-weight: 500;

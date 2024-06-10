@@ -251,10 +251,9 @@ const Prices = () => {
             >
                 {
                     data.map(el => (
-                        <SwiperSlide>
+                        <SwiperSlide key={el.id}>
                             <Card
                                 image={el.image}
-                                key={el.id}
                                 icon={el.icon}
                                 price={el.price}
                                 cityName={el.cityName}

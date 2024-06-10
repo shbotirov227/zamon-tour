@@ -18,7 +18,7 @@ const Header = () => {
 	useEffect(() => {
 		const lng = navigator.language;
 		i18n.changeLanguage(lng);
-	});
+	}, []);
 
 	const lng = navigator.language;
 
@@ -28,7 +28,6 @@ const Header = () => {
 				<a href="/"><img src={Logo} alt="logo" /></a>
 				<ul className="Header-links">
 					<li><a className="Header-link" href="/">{t("home.title")}</a></li>
-					<span>Browser Language: {lng}</span>
 					<li><a className="Header-link" href="#about">About</a></li>
 					<li><a className="Header-link" href="#tours">Tours</a></li>
 					<li><a className="Header-link" href="#contact">Contacts</a></li>
