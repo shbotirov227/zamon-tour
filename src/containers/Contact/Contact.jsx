@@ -32,7 +32,7 @@ const data = [
 
 const Contact = () => {
     return (
-        <div className="Contact container" id="contact">
+        <div className="Contact container" id="directions">
             {data.map(el => <ContactCard key={el.id} icon={el.icon} title={el.title} text={el.text} url={el.url} />)}
         </div>
     )

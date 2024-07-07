@@ -41,7 +41,7 @@ const ExploreCard = ({ image, title, author, text, peoples, area, price }) => {
                                 </li>
                             </ul>
 
-                            <a href="#contact" className="ExploreCard-additional-link">Need Directions ? <ArrowIcon /></a>
+                            <a href="#directions" className="ExploreCard-additional-link">Need Directions ? <ArrowIcon /></a>
                         </div>
                         : undefined
                 }

@@ -71,7 +71,7 @@ const data = [
 
 const Visit = () => {
     return (
-        <div className="Visit container">
+        <div className="Visit container" id="tours">
             <MainTitle
                 title="Visit One Of Our Countries Now"
                 text="Discover the best offers in each city, curated just for you. Immerse
