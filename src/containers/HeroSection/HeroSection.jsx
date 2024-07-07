@@ -27,6 +27,7 @@ const HeroSection = () => {
 						</CCarouselCaption>
 						<HeroInfoCard population="44.48 M"	area="275.400 KM2" price="$946.000" />
 					</CCarouselItem>
+					
 
 					<CCarouselItem>
 						<CImage className="d-block w-100" src={BgImage2} alt="slide 2" />
