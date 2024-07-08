@@ -1,6 +1,7 @@
 {
   "name": "zamon-app",
   "version": "0.1.0",
+  "homepage": "http://reisen.uz/",
   "private": true,
   "dependencies": {
     "@coreui/coreui": "^5.0.2",
@@ -50,5 +51,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.1.1"
   }
 }
