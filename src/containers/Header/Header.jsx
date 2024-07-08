@@ -3,7 +3,7 @@ import i18next from "i18next";
 import { Link } from "react-router-dom";
 
 import { InstagramIcon, TelegramIcon} from "../../assets/icons";
-import Logo from "../../assets/images/logo.svg";
+import Logo from "../../assets/images/logo.png";
 
 import "./Header.scss";
 
